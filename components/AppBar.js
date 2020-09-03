@@ -55,14 +55,14 @@ export default function AppBar () {
             leftComponent={<MyAvatar/>}
             centerComponent={{ text: 'Awsome React Native', style: { color: '#ffffff' } }}
             rightComponent={<Right/>}
-            style={styles.header}
+            containerStyle={styles.header}
         ></Header>
     )
 }
 
 const styles = StyleSheet.create({
     header: {
-        backgroundColor: 'blue',
+        backgroundColor: '#1ABC9C',
         paddingTop: 0
     },
     icon: {
